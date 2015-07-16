@@ -1,9 +1,9 @@
 ## This function makeCacheMatrix will create a special "matrix" object,
 ## which is actually a list that contains four functions:
-## 1. set: Set the values of the matrix
-## 2. get: Get the values of the matrix
-## 3. setinverse: Set the value of the matrix inverse
-## 4. getinverse: Get the value of the matrix inverse
+## 1. set: Sets the values of the matrix
+## 2. get: Gets the values of the matrix
+## 3. setinverse: Sets the value of the matrix inverse
+## 4. getinverse: Gets the value of the matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
